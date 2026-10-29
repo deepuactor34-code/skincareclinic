@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skinheal Clinic Najafgarh, Delhi | Skin Care Clinic</title>
+  <meta name="description" content="Visit Skinheal Clinic in Najafgarh, Delhi. Rated 4.8 by 58 reviewers. Located at No.3, Dhansa Stand, Near HP Petrol Pump, Najafgarh, Delhi 110043. Call 087662 20757." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ivory: #FDFBF7;
+      --white: #FFFFFF;
+      --sage: #8A9A7B;
+      --sage-dark: #6B7B5E;
+      --beige: #E8E0D5;
+      --blush: #E8D5D0;
+      --charcoal: #2C2C2C;
+      --muted: #6B6B6B;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+      --shadow-hover: 0 8px 32px rgba(0, 0, 0, 0.10);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --font-heading: 'Playfair Display', Georgia, serif;
+      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: var(--font-body);
+      background: var(--ivory);
+      color: var(--charcoal);
+      line-height: 1.7;
+      font-size: 16px;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+    button, input, select, textarea { font-family: inherit; font-size: inherit; }
+
+    .container { width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 80px 0; }
+    .section-label {
+      display: inline-block; font-size: 0.78rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--sage-dark);
+      font-weight: 600; margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: clamp(1.75rem, 4vw, 2.6rem);
+      font-weight: 600; line-height: 1.25; color: var(--charcoal);
+      margin-bottom: 16px;
+    }
+    .section-desc {
+      font-size: 1.02rem; color: var(--muted);
+      max-width: 620px; margin-bottom: 48px;
+    }
+
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 8px; padding: 14px 30px; border-radius: 50px;
+      font-weight: 500; font-size: 0.95rem; letter-spacing: 0.02em;
+      cursor: pointer; border: 1.5px solid transparent;
+      transition: var(--transition); line-height: 1.2; white-space: nowrap;
+    }
+    .btn-primary { background: var(--sage-dark); color: var(--white); }
+    .btn-primary:hover, .btn-primary:focus-visible {
+      background: #5a6a4e; transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(107, 123, 94, 0.35);
+    }
+    .btn-outline {
+      background: transparent; color: var(--charcoal); border-color: var(--sage);
+    }
+    .btn-outline:hover, .btn-outline:focus-visible {
+      background: var(--sage); color: var(--white); transform: translateY(-2px);
+    }
+    .btn-ghost { background: var(--beige); color: var(--charcoal); }
+    .btn-ghost:hover, .btn-ghost:focus-visible {
+      background: var(--blush); transform: translateY(-2px);
+    }
+    .btn-small { padding: 10px 20px; font-size: 0.85rem; }
+    .btn-block { width: 100%; }
+
+    /* Header */
+    .site-header {
+      position: sticky; top: 0; z-index: 1000;
+      background: rgba(253, 251, 247, 0.88);
+      backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(138, 154, 123, 0.15);
+      transition: box-shadow var(--transition);
+    }
+    .site-header.scrolled { box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06); }
+    .header-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 72px;
+    }
+    .logo {
+      font-family: var(--font-heading); font-size: 1.55rem; font-weight: 700;
+      letter-spacing: 0.06em; color: var(--charcoal);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .logo-icon {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--sage), var(--blush));
+      display: inline-flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .logo-icon svg { width: 18px; height: 18px; stroke: var(--white); fill: none; stroke-width: 2; }
+    .nav-desktop { display: flex; align-items: center; gap: 28px; }
+    .nav-desktop a {
+      font-size: 0.9rem; font-weight: 500; color: var(--charcoal);
+      position: relative; padding: 4px 0; transition: color var(--transition);
+    }
+    .nav-desktop a::after {
+      content: ''; position: absolute; left: 0; bottom: -2px;
+      width: 0; height: 2px; background: var(--sage);
+      transition: width var(--transition); border-radius: 2px;
+    }
+    .nav-desktop a:hover { color: var(--sage-dark); }
+    .nav-desktop a:hover::after { width: 100%; }
+    .header-cta { display: flex; align-items: center; gap: 12px; }
+    .mobile-toggle {
+      display: none; background: none; border: none;
+      cursor: pointer; padding: 8px; color: var(--charcoal);
+    }
+    .mobile-toggle svg { width: 26px; height: 26px; stroke: currentColor; stroke-width: 2; fill: none; }
+    .mobile-nav {
+      display: none; flex-direction: column; gap: 0;
+      background: var(--white); border-top: 1px solid var(--beige);
+      padding: 12px 24px 20px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      padding: 14px 0; font-size: 1rem; font-weight: 500;
+      border-bottom: 1px solid var(--beige); color: var(--charcoal);
+    }
+    .mobile-nav a:last-child { border-bottom: none; }
+    .mobile-nav .btn { margin-top: 12px; justify-content: center; }
+
+    /* Hero */
+    .hero {
+      position: relative; min-height: 88vh; display: flex; align-items: center;
+      background: linear-gradient(135deg, rgba(253, 251, 247, 0.94) 0%, rgba(232, 213, 208, 0.35) 55%, rgba(232, 224, 213, 0.6) 100%);
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; width: 520px; height: 520px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(138, 154, 123, 0.12) 0%, transparent 70%);
+      top: -160px; right: -120px; pointer-events: none;
+    }
+    .hero::after {
+      content: ''; position: absolute; width: 400px; height: 400px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(232, 213, 208, 0.25) 0%, transparent 70%);
+      bottom: -100px; left: -100px; pointer-events: none;
+    }
+    .hero-inner {
+      position: relative; z-index: 2; display: grid;
+      grid-template-columns: 1fr 1fr; align-items: center;
+      gap: 56px; padding: 60px 0;
+    }
+    .hero-content { max-width: 560px; }
+    .hero-tagline {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.8rem; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--sage-dark); font-weight: 600; margin-bottom: 20px;
+    }
+    .hero-tagline::before {
+      content: ''; width: 32px; height: 1.5px;
+      background: var(--sage); display: inline-block;
+    }
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(2.4rem, 5.5vw, 3.8rem);
+      font-weight: 600; line-height: 1.15; color: var(--charcoal);
+      margin-bottom: 20px;
+    }
+    .hero h1 em { font-style: italic; color: var(--sage-dark); }
+    .hero-sub {
+      font-size: 1.08rem; color: var(--muted);
+      margin-bottom: 32px; max-width: 480px; line-height: 1.75;
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 28px; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 0.88rem; color: var(--sage-dark); font-weight: 500;
+    }
+    .hero-trust svg {
+      width: 20px; height: 20px; stroke: var(--sage);
+      fill: none; stroke-width: 1.8; flex-shrink: 0;
+    }
+    .hero-rating {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-bottom: 16px; font-size: 0.9rem; font-weight: 600;
+      color: var(--charcoal);
+    }
+    .hero-rating .stars { color: #E0A800; letter-spacing: 2px; }
+    .hero-rating .count { color: var(--muted); font-weight: 400; }
+
+    .hero-visual { position: relative; display: flex; align-items: center; justify-content: center; }
+    .hero-image-wrap {
+      width: 100%; max-width: 440px; aspect-ratio: 4 / 5;
+      border-radius: 200px 200px 30px 30px;
+      overflow: hidden; position: relative;
+      box-shadow: 0 24px 60px rgba(107, 123, 94, 0.25);
+      background: var(--beige);
+    }
+    .hero-image-wrap img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .hero-image-wrap:hover img { transform: scale(1.04); }
+    .hero-badge {
+      position: absolute; bottom: 28px; left: -20px;
+      background: var(--white); border-radius: var(--radius-sm);
+      padding: 14px 20px; box-shadow: var(--shadow);
+      display: flex; align-items: center; gap: 10px;
+      font-size: 0.82rem; font-weight: 500; color: var(--charcoal);
+      z-index: 3;
+    }
+    .hero-badge svg { width: 22px; height: 22px; stroke: var(--sage); fill: none; stroke-width: 1.8; }
+
+    /* About */
+    .about { background: var(--white); }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 64px; align-items: center;
+    }
+    .about-visual { position: relative; }
+    .about-image {
+      width: 100%; aspect-ratio: 3 / 4; max-height: 480px;
+      border-radius: var(--radius); overflow: hidden;
+      box-shadow: var(--shadow); background: var(--beige);
+    }
+    .about-image img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .about-image:hover img { transform: scale(1.05); }
+    .about-accent {
+      position: absolute; top: -16px; left: -16px;
+      width: 80px; height: 80px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(138, 154, 123, 0.25), transparent 70%);
+      pointer-events: none; z-index: 2;
+    }
+    .about-content .section-desc { margin-bottom: 32px; max-width: 100%; }
+    .about-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .about-highlight {
+      display: flex; align-items: flex-start; gap: 12px;
+      padding: 16px; border-radius: var(--radius-sm);
+      background: var(--ivory); border: 1px solid var(--beige);
+      transition: var(--transition);
+    }
+    .about-highlight:hover {
+      border-color: var(--sage); transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+    .about-highlight-icon {
+      flex-shrink: 0; width: 38px; height: 38px;
+      border-radius: 10px; background: var(--sage);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .about-highlight-icon svg { width: 18px; height: 18px; stroke: var(--white); fill: none; stroke-width: 2; }
+    .about-highlight-text { font-size: 0.86rem; font-weight: 500; color: var(--charcoal); line-height: 1.45; }
+
+    /* Services */
+    .services { background: var(--ivory); }
+    .services-header {
+      text-align: center; display: flex; flex-direction: column; align-items: center;
+    }
+    .services-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
+    }
+    .service-card {
+      background: var(--white); border-radius: var(--radius);
+      overflow: hidden; box-shadow: var(--shadow);
+      transition: var(--transition); display: flex; flex-direction: column;
+      border: 1px solid transparent;
+    }
+    .service-card:hover {
+      transform: translateY(-6px); box-shadow: var(--shadow-hover);
+      border-color: rgba(138, 154, 123, 0.3);
+    }
+    .service-card-visual {
+      height: 180px; position: relative; overflow: hidden;
+      background: var(--beige);
+    }
+    .service-card-visual img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .service-card:hover .service-card-visual img { transform: scale(1.08); }
+    .service-card-visual::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(44,44,44,0.35) 100%);
+      pointer-events: none;
+    }
+    .service-status {
+      position: absolute; top: 10px; right: 10px; z-index: 2;
+      font-size: 0.62rem; font-weight: 600; letter-spacing: 0.06em;
+      text-transform: uppercase; padding: 4px 10px; border-radius: 20px;
+      background: rgba(255, 255, 255, 0.92); color: var(--sage-dark);
+      backdrop-filter: blur(4px);
+    }
+    .service-card-body { padding: 22px 22px 24px; display: flex; flex-direction: column; flex: 1; }
+    .service-card-title {
+      font-family: var(--font-heading); font-size: 1.15rem;
+      font-weight: 600; margin-bottom: 8px; color: var(--charcoal);
+    }
+    .service-card-desc {
+      font-size: 0.86rem; color: var(--muted);
+      line-height: 1.6; margin-bottom: 18px; flex: 1;
+    }
+
+    /* Why Us */
+    .why-us { background: var(--white); }
+    .why-header {
+      text-align: center; display: flex; flex-direction: column; align-items: center;
+    }
+    .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    .why-card {
+      padding: 32px 24px; border-radius: var(--radius);
+      background: var(--ivory); border: 1px solid var(--beige);
+      text-align: center; transition: var(--transition);
+    }
+    .why-card:hover {
+      transform: translateY(-6px); box-shadow: var(--shadow-hover);
+      border-color: var(--sage);
+    }
+    .why-icon {
+      width: 56px; height: 56px; border-radius: 50%;
+      margin: 0 auto 18px; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--sage), var(--sage-dark));
+    }
+    .why-icon svg {
+      width: 26px; height: 26px; stroke: var(--white);
+      fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+    }
+    .why-card h3 {
+      font-family: var(--font-heading); font-size: 1.08rem;
+      font-weight: 600; margin-bottom: 8px; color: var(--charcoal);
+    }
+    .why-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+
+    /* Appointment */
+    .appointment {
+      background: linear-gradient(160deg, var(--ivory) 0%, rgba(232, 224, 213, 0.5) 100%);
+      position: relative; overflow: hidden;
+    }
+    .appointment::before {
+      content: ''; position: absolute; width: 400px; height: 400px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(138, 154, 123, 0.08), transparent 70%);
+      top: -100px; right: -100px; pointer-events: none;
+    }
+    .appointment-grid {
+      display: grid; grid-template-columns: 1fr 1.1fr;
+      gap: 56px; align-items: start; position: relative; z-index: 1;
+    }
+    .appointment-info .section-desc { margin-bottom: 32px; }
+    .appointment-phone-box {
+      background: var(--white); border-radius: var(--radius);
+      padding: 28px; box-shadow: var(--shadow);
+      display: flex; flex-direction: column; gap: 14px;
+    }
+    .appointment-phone-box p { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
+    .appointment-phone-box .phone-number {
+      font-family: var(--font-heading); font-size: 1.4rem;
+      font-weight: 600; color: var(--charcoal); display: block; margin-bottom: 4px;
+    }
+    .appointment-form-wrap {
+      background: var(--white); border-radius: var(--radius);
+      padding: 36px 32px; box-shadow: var(--shadow);
+      border: 1px solid var(--beige);
+    }
+    .form-group { margin-bottom: 18px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-label {
+      display: block; font-size: 0.82rem; font-weight: 600;
+      color: var(--charcoal); margin-bottom: 6px; letter-spacing: 0.01em;
+    }
+    .form-label .req { color: #b5544a; margin-left: 2px; }
+    .form-control {
+      width: 100%; padding: 12px 14px;
+      border: 1.5px solid var(--beige); border-radius: var(--radius-sm);
+      background: var(--ivory); color: var(--charcoal);
+      font-size: 0.92rem; transition: var(--transition);
+      outline: none; -webkit-appearance: none; appearance: none;
+    }
+    .form-control:focus {
+      border-color: var(--sage); background: var(--white);
+      box-shadow: 0 0 0 3px rgba(138, 154, 123, 0.15);
+    }
+    .form-control::placeholder { color: #a9a9a4; }
+    textarea.form-control { resize: vertical; min-height: 90px; }
+    select.form-control {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236B6B6B' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 14px center;
+      padding-right: 36px; cursor: pointer;
+    }
+    .form-hint { font-size: 0.76rem; color: var(--muted); margin-top: 4px; line-height: 1.5; }
+    .form-error {
+      font-size: 0.76rem; color: #b5544a;
+      margin-top: 4px; display: none; line-height: 1.4;
+    }
+    .form-error.visible { display: block; }
+    .form-control.invalid { border-color: #b5544a; background: #fdf5f4; }
+    .privacy-note {
+      font-size: 0.76rem; color: var(--muted); line-height: 1.55;
+      margin: 14px 0 20px; padding: 12px 14px;
+      background: var(--ivory); border-radius: var(--radius-sm);
+      border-left: 3px solid var(--sage);
+    }
+    .form-success {
+      display: none; padding: 28px 24px;
+      background: linear-gradient(135deg, rgba(138, 154, 123, 0.1), rgba(232, 213, 208, 0.2));
+      border: 1.5px solid var(--sage); border-radius: var(--radius);
+      text-align: center;
+    }
+    .form-success.visible { display: block; }
+    .form-success-icon {
+      width: 54px; height: 54px; border-radius: 50%;
+      background: var(--sage); display: flex; align-items: center;
+      justify-content: center; margin: 0 auto 16px;
+    }
+    .form-success-icon svg {
+      width: 28px; height: 28px; stroke: var(--white);
+      fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+    }
+    .form-success h3 {
+      font-family: var(--font-heading); font-size: 1.3rem;
+      font-weight: 600; margin-bottom: 10px; color: var(--charcoal);
+    }
+    .form-success p { font-size: 0.92rem; color: var(--muted); line-height: 1.65; margin-bottom: 6px; }
+    .form-success .phone-highlight {
+      display: block; font-weight: 600; font-size: 1.05rem;
+      color: var(--sage-dark); margin: 10px 0;
+    }
+    .hp-field {
+      position: absolute !important; left: -9999px !important;
+      opacity: 0 !important; height: 0 !important; width: 0 !important;
+      overflow: hidden !important; pointer-events: none !important;
+    }
+
+    /* Location */
+    .location { background: var(--white); }
+    .location-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 48px; align-items: stretch;
+    }
+    .location-info { display: flex; flex-direction: column; }
+    .contact-card {
+      background: var(--ivory); border-radius: var(--radius);
+      padding: 32px; border: 1px solid var(--beige);
+      flex: 1; display: flex; flex-direction: column; gap: 22px;
+    }
+    .contact-item { display: flex; align-items: flex-start; gap: 14px; }
+    .contact-icon {
+      flex-shrink: 0; width: 42px; height: 42px;
+      border-radius: 12px; background: var(--sage);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .contact-icon svg {
+      width: 20px; height: 20px; stroke: var(--white);
+      fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+    }
+    .contact-item-label {
+      font-size: 0.76rem; font-weight: 600; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--sage-dark); margin-bottom: 3px;
+    }
+    .contact-item-value { font-size: 0.95rem; color: var(--charcoal); line-height: 1.55; }
+    .contact-item-value a { color: var(--charcoal); transition: color var(--transition); }
+    .contact-item-value a:hover {
+      color: var(--sage-dark); text-decoration: underline; text-underline-offset: 2px;
+    }
+    .location-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+    .map-wrap {
+      border-radius: var(--radius); overflow: hidden;
+      border: 1px solid var(--beige); box-shadow: var(--shadow);
+      display: flex; flex-direction: column; min-height: 380px;
+      background: var(--ivory);
+    }
+    .map-wrap iframe { width: 100%; flex: 1; border: 0; min-height: 340px; }
+    .map-disclaimer {
+      padding: 10px 16px; font-size: 0.74rem; color: var(--muted);
+      background: var(--ivory); border-top: 1px solid var(--beige); line-height: 1.5;
+    }
+
+    /* Visit */
+    .visit {
+      background: linear-gradient(160deg, rgba(232, 213, 208, 0.25) 0%, var(--ivory) 50%, rgba(138, 154, 123, 0.12) 100%);
+      text-align: center;
+    }
+    .visit-inner { max-width: 640px; margin: 0 auto; }
+    .visit-icon {
+      width: 64px; height: 64px; border-radius: 50%;
+      background: var(--white); display: flex; align-items: center;
+      justify-content: center; margin: 0 auto 20px; box-shadow: var(--shadow);
+    }
+    .visit-icon svg {
+      width: 30px; height: 30px; stroke: var(--sage-dark);
+      fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round;
+    }
+    .visit h2 {
+      font-family: var(--font-heading);
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 600; margin-bottom: 14px; color: var(--charcoal);
+    }
+    .visit p { color: var(--muted); font-size: 1rem; line-height: 1.7; margin-bottom: 28px; }
+    .visit-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+
+    /* FAQ */
+    .faq { background: var(--white); }
+    .faq-header {
+      text-align: center; display: flex; flex-direction: column; align-items: center;
+    }
+    .faq-list {
+      max-width: 780px; margin: 0 auto;
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .faq-item {
+      background: var(--ivory); border: 1px solid var(--beige);
+      border-radius: var(--radius-sm); overflow: hidden;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+    .faq-item.active { border-color: var(--sage); box-shadow: var(--shadow); }
+    .faq-question {
+      width: 100%; display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; padding: 18px 22px; background: none; border: none;
+      cursor: pointer; text-align: left; font-size: 0.95rem;
+      font-weight: 500; color: var(--charcoal); transition: color var(--transition);
+    }
+    .faq-question:hover { color: var(--sage-dark); }
+    .faq-chevron {
+      flex-shrink: 0; width: 22px; height: 22px;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform var(--transition);
+    }
+    .faq-chevron svg {
+      width: 16px; height: 16px; stroke: var(--sage-dark);
+      fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+    }
+    .faq-item.active .faq-chevron { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+      padding: 0 22px;
+    }
+    .faq-item.active .faq-answer { max-height: 300px; padding: 0 22px 20px; }
+    .faq-answer p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
+    .faq-answer a {
+      color: var(--sage-dark); font-weight: 500;
+      text-decoration: underline; text-underline-offset: 2px;
+    }
+
+    /* Footer */
+    .site-footer {
+      background: #2A2E26; color: #D8D8D0;
+      padding: 64px 0 0; font-size: 0.9rem;
+    }
+    .footer-grid {
+      display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
+      gap: 40px; padding-bottom: 48px;
+    }
+    .footer-brand .logo { color: #FFFFFF; margin-bottom: 16px; font-size: 1.4rem; }
+    .footer-brand p {
+      font-size: 0.86rem; color: #A8ADA0;
+      line-height: 1.7; max-width: 280px;
+    }
+    .footer-col h4 {
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.12em;
+      text-transform: uppercase; color: #FFFFFF; margin-bottom: 18px;
+    }
+    .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul li a {
+      color: #A8ADA0; font-size: 0.86rem; transition: color var(--transition);
+    }
+    .footer-col ul li a:hover { color: #FFFFFF; }
+    .footer-contact p {
+      color: #A8ADA0; font-size: 0.86rem; line-height: 1.7; margin-bottom: 10px;
+    }
+    .footer-contact a { color: #D8D8D0; transition: color var(--transition); }
+    .footer-contact a:hover { color: #FFFFFF; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 22px 0; display: flex; flex-wrap: wrap;
+      align-items: center; justify-content: space-between;
+      gap: 14px; font-size: 0.78rem; color: #8A9082;
+    }
+    .footer-legal { display: flex; gap: 20px; flex-wrap: wrap; }
+    .footer-legal a { color: #8A9082; transition: color var(--transition); }
+    .footer-legal a:hover { color: #FFFFFF; }
+
+    /* Reveal */
+    .reveal {
+      opacity: 0; transform: translateY(24px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* Skip link */
+    .skip-link {
+      position: absolute; top: -100px; left: 16px;
+      background: var(--sage-dark); color: var(--white);
+      padding: 12px 20px; border-radius: var(--radius-sm);
+      z-index: 2000; font-weight: 500; transition: top 0.2s ease;
+    }
+    .skip-link:focus { top: 16px; }
+
+    a:focus-visible, button:focus-visible,
+    input:focus-visible, select:focus-visible, textarea:focus-visible {
+      outline: 2px solid var(--sage-dark); outline-offset: 3px;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .hero-inner { gap: 36px; }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .why-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1.4fr 1fr 1fr; }
+      .footer-contact { grid-column: 1 / -1; }
+    }
+    @media (max-width: 860px) {
+      .nav-desktop, .header-cta .btn { display: none; }
+      .mobile-toggle { display: inline-flex; }
+      .hero-inner {
+        grid-template-columns: 1fr; text-align: center; padding: 40px 0 56px;
+      }
+      .hero-content {
+        max-width: 100%; display: flex; flex-direction: column; align-items: center;
+      }
+      .hero-sub { max-width: 100%; }
+      .hero-actions { justify-content: center; }
+      .hero-visual { order: -1; }
+      .hero-image-wrap {
+        max-width: 300px; aspect-ratio: 1 / 1; border-radius: 50%;
+      }
+      .hero-badge {
+        left: 50%; transform: translateX(-50%);
+        bottom: -16px; white-space: nowrap;
+      }
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
+      .about-visual { max-width: 340px; margin: 0 auto; order: -1; }
+      .about-image { aspect-ratio: 1 / 1; }
+      .appointment-grid { grid-template-columns: 1fr; gap: 32px; }
+      .location-grid { grid-template-columns: 1fr; gap: 32px; }
+      .map-wrap { min-height: 320px; }
+    }
+    @media (max-width: 640px) {
+      .section { padding: 56px 0; }
+      .container { padding: 0 18px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: 1fr; }
+      .about-highlights { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .appointment-form-wrap { padding: 26px 20px; }
+      .contact-card { padding: 24px 20px; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .footer-brand { grid-column: 1 / -1; }
+      .footer-brand p { max-width: 100%; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .hero-actions .btn { width: 100%; }
+      .location-actions .btn { flex: 1; min-width: 140px; }
+      .visit-actions .btn { width: 100%; }
+      .hero h1 { font-size: clamp(2rem, 8vw, 2.6rem); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo" aria-label="Skinheal Clinic – Home">
+        <span class="logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2C9 7 5 9 5 14a7 7 0 0 0 14 0c0-5-4-7-7-12z"/></svg>
+        </span>
+        Skinheal Clinic
+      </a>
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#location">Location</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+918766220757" class="btn btn-outline btn-small" aria-label="Call the clinic">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call
+        </a>
+        <a href="#appointment" class="btn btn-primary btn-small">Book Appointment</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+          <svg viewBox="0 0 24 24" id="menuIcon"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#location">Location</a>
+      <a href="#faq">FAQ</a>
+      <a href="tel:+918766220757" class="btn btn-outline">Call: 087662 20757</a>
+      <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="hero-tagline">Your Skin, Our Care.</span>
+          <h1>Healthy Skin.<br /><em>Natural Confidence.</em></h1>
+          <div class="hero-rating">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>4.8</span>
+            <span class="count">(58 reviews)</span>
+          </div>
+          <p class="hero-sub">Discover personalized skincare solutions designed to help you care for your skin and feel confident every day.</p>
+          <div class="hero-actions">
+            <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+            <a href="tel:+918766220757" class="btn btn-outline">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call Our Clinic
+            </a>
+          </div>
+          <div class="hero-trust">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            Skinheal Clinic, Najafgarh, Delhi
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80"
+              alt="Woman receiving a relaxing facial skincare treatment at a clinic"
+              loading="eager"
+              width="800" height="1000"
+            />
+          </div>
+          <div class="hero-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Najafgarh, New Delhi
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="about-accent" aria-hidden="true"></div>
+            <div class="about-image">
+              <img
+                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+                alt="Close-up of healthy, glowing skin after a skincare routine"
+                loading="lazy"
+                width="800" height="1000"
+              />
+            </div>
+          </div>
+
+          <div class="about-content reveal">
+            <span class="section-label">About Our Clinic</span>
+            <h2 class="section-title">A Personal Approach to Skin Care</h2>
+            <p class="section-desc">At Skinheal Clinic, we believe that every skin journey is unique. Our goal is to help you explore skincare options suited to your individual needs through a welcoming environment and a personalized approach to skin care.</p>
+
+            <div class="about-highlights">
+              <div class="about-highlight">
+                <div class="about-highlight-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <span class="about-highlight-text">Personalized skincare consultations</span>
+              </div>
+              <div class="about-highlight">
+                <div class="about-highlight-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
+                </div>
+                <span class="about-highlight-text">A welcoming clinic environment</span>
+              </div>
+              <div class="about-highlight">
+                <div class="about-highlight-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg>
+                </div>
+                <span class="about-highlight-text">Individual skincare recommendations</span>
+              </div>
+              <div class="about-highlight">
+                <div class="about-highlight-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <span class="about-highlight-text">Convenient location in Najafgarh, Delhi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="services-header reveal">
+          <span class="section-label">Our Services</span>
+          <h2 class="section-title">Skincare, Tailored to You</h2>
+          <p class="section-desc">Service availability may vary. Please call the clinic to confirm which services are currently offered.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card-visual">
+              <span class="service-status">To be confirmed</span>
+              <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=800&q=80" alt="Skincare consultation with a specialist" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Skin Consultation</h3>
+              <p class="service-card-desc">A conversation about your skin concerns and goals, with guidance on suitable next steps.</p>
+              <a href="#appointment" class="btn btn-ghost btn-small btn-block">Book Consultation</a>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card-visual">
+              <span class="service-status">To be confirmed</span>
+              <img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=800&q=80" alt="Close-up of skin texture showing blemish care" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Acne and Blemish Care</h3>
+              <p class="service-card-desc">Personalized guidance for managing acne-prone skin and blemishes. Ask the clinic for details.</p>
+              <a href="#appointment" class="btn btn-ghost btn-small btn-block">Book Consultation</a>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card-visual">
+              <span class="service-status">To be confirmed</span>
+              <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80" alt="Pigmentation care skincare treatment" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Pigmentation Care</h3>
+              <p class="service-card-desc">Discuss uneven tone and pigmentation concerns with the clinic for personalized advice.</p>
+              <a href="#appointment" class="btn btn-ghost btn-small btn-block">Book Consultation</a>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card-visual">
+              <span class="service-status">To be confirmed</span>
+              <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80" alt="Relaxing facial treatment at a skincare clinic" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Facial Treatments</h3>
+              <p class="service-card-desc">Explore facial treatment options available at the clinic. Please call to confirm availability.</p>
+              <a href="#appointment" class="btn btn-ghost btn-small btn-block">Book Consultation</a>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card-visual">
+              <span class="service-status">To be confirmed</span>
+              <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=80" alt="Hydrating skincare serum and moisturizer" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Skin Hydration and Rejuvenation</h3>
+              <p class="service-card-desc">Learn about hydration-focused and rejuvenating options the clinic may offer.</p>
+              <a href="#appointment" class="btn btn-ghost btn-small btn-block">Book Consultation</a>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card-visual">
+              <span class="service-status">To be confirmed</span>
+              <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80" alt="Personalized skincare guidance with products" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Personalized Skincare Guidance</h3>
+              <p class="service-card-desc">General skincare advice tailored to your routine and concerns, based on a consultation.</p>
+              <a href="#appointment" class="btn btn-ghost btn-small btn-block">Book Consultation</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section why-us" id="why-us">
+      <div class="container">
+        <div class="why-header reveal">
+          <span class="section-label">Why Choose Us</span>
+          <h2 class="section-title">Care You Can Feel Good About</h2>
+          <p class="section-desc">A calm, personal, and convenient approach to skincare in Najafgarh, Delhi.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/><path d="M12 11v4M10 13h4"/></svg>
+            </div>
+            <h3>Personalized Care</h3>
+            <p>Skincare guidance tailored to individual needs.</p>
+          </div>
+          <div class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 18 0"/><path d="M3 12a9 9 0 0 0 18 0"/><path d="M12 3v18"/><path d="M8 7c2-2 6-2 8 0"/></svg>
+            </div>
+            <h3>Comfortable Experience</h3>
+            <p>A welcoming and relaxing clinic environment.</p>
+          </div>
+          <div class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3>Convenient Location</h3>
+            <p>Easily find us in Najafgarh, Delhi.</p>
+          </div>
+          <div class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <h3>Easy Appointments</h3>
+            <p>Contact our clinic quickly by phone or through the website.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPOINTMENT -->
+    <section class="section appointment" id="appointment">
+      <div class="container">
+        <div class="appointment-grid">
+          <div class="appointment-info reveal">
+            <span class="section-label">Appointments</span>
+            <h2 class="section-title">Request an Appointment</h2>
+            <p class="section-desc">Fill in the form to prepare your request. To confirm your appointment, please call the clinic directly — online requests are not automatically confirmed.</p>
+
+            <div class="appointment-phone-box">
+              <div>
+                <span class="contact-item-label">Call the clinic directly</span>
+                <a href="tel:+918766220757" class="phone-number">087662 20757</a>
+                <p>Call now to confirm your appointment or ask about available services.</p>
+              </div>
+              <a href="tel:+918766220757" class="btn btn-primary btn-block">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Call Now: 087662 20757
+              </a>
+            </div>
+          </div>
+
+          <div class="appointment-form-wrap reveal">
+            <form id="appointmentForm" novalidate aria-label="Appointment request form">
+              <div class="hp-field" aria-hidden="true">
+                <label for="website">Website</label>
+                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="fullName">Full Name <span class="req">*</span></label>
+                <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Your full name" autocomplete="name" required />
+                <span class="form-error" id="err-fullName" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone Number <span class="req">*</span></label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 98765 43210" autocomplete="tel" required />
+                <span class="form-error" id="err-phone" role="alert"></span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="prefDate">Preferred Date</label>
+                  <input type="date" id="prefDate" name="prefDate" class="form-control" />
+                  <span class="form-error" id="err-prefDate" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="prefTime">Preferred Time</label>
+                  <input type="time" id="prefTime" name="prefTime" class="form-control" />
+                  <span class="form-error" id="err-prefTime" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="service">Service of Interest</label>
+                <select id="service" name="service" class="form-control">
+                  <option value="">Select a service (optional)</option>
+                  <option value="Skin Consultation">Skin Consultation</option>
+                  <option value="Acne and Blemish Care">Acne and Blemish Care</option>
+                  <option value="Pigmentation Care">Pigmentation Care</option>
+                  <option value="Facial Treatments">Facial Treatments</option>
+                  <option value="Skin Hydration and Rejuvenation">Skin Hydration and Rejuvenation</option>
+                  <option value="Personalized Skincare Guidance">Personalized Skincare Guidance</option>
+                  <option value="Not sure / General enquiry">Not sure / General enquiry</option>
+                </select>
+                <p class="form-hint">Service availability is to be confirmed with the clinic.</p>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Additional Message</label>
+                <textarea id="message" name="message" class="form-control" rows="3" placeholder="Anything you'd like us to know?"></textarea>
+              </div>
+
+              <div class="privacy-note">
+                By submitting this form, you agree to be contacted by phone regarding your request. We do not share your information. Your request is not confirmed until you speak with the clinic.
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Request an Appointment</button>
+            </form>
+
+            <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+              <div class="form-success-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <h3>Your request is ready.</h3>
+              <p>To confirm your appointment, please call us directly at:</p>
+              <a href="tel:+918766220757" class="phone-highlight">087662 20757</a>
+              <p>Online requests are not automatically confirmed. We look forward to speaking with you.</p>
+              <a href="tel:+918766220757" class="btn btn-primary" style="margin-top:16px;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Call to Confirm
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section location" id="location">
+      <div class="container">
+        <div class="reveal" style="margin-bottom:40px;">
+          <span class="section-label">Location &amp; Contact</span>
+          <h2 class="section-title">Visit Skinheal Clinic</h2>
+          <p class="section-desc">Find us in Najafgarh, Delhi. Please call ahead to confirm clinic hours and service availability.</p>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-info reveal">
+            <div class="contact-card">
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Address</div>
+                  <div class="contact-item-value">
+                    Skinheal Clinic — Skin Care Clinic<br />
+                    No.3, Dhansa Stand, Near HP Petrol Pump/Gate, Metro Station, Najafgarh, Delhi 110043
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Phone</div>
+                  <div class="contact-item-value"><a href="tel:+918766220757">087662 20757</a></div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Plus Code</div>
+                  <div class="contact-item-value">JX6H+CW Najafgarh, Delhi</div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Hours</div>
+                  <div class="contact-item-value">Opens 11 am Friday (call to confirm)</div>
+                </div>
+              </div>
+
+              <div class="location-actions">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=No.3%2C%20Dhansa%20Stand%2C%20Near%20HP%20Petrol%20Pump%2C%20Najafgarh%2C%20Delhi%20110043"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-small"
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                  Get Directions
+                </a>
+                <a href="tel:+918766220757" class="btn btn-outline btn-small">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  Call the Clinic
+                </a>
+                <button type="button" class="btn btn-ghost btn-small" id="shareLocationBtn">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                  Share Location
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-wrap reveal">
+            <iframe
+              title="Map showing the location of Skinheal Clinic at No.3, Dhansa Stand, Near HP Petrol Pump, Najafgarh, Delhi 110043"
+              src="https://maps.google.com/maps?q=No.3%2C%20Dhansa%20Stand%2C%20Near%20HP%20Petrol%20Pump%2C%20Najafgarh%2C%20Delhi%20110043&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+            <p class="map-disclaimer">Map is generated from the clinic address above. For turn-by-turn navigation, use “Get Directions”.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="section visit" id="visit">
+      <div class="container visit-inner reveal">
+        <div class="visit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2C9 7 5 9 5 14a7 7 0 0 0 14 0c0-5-4-7-7-12z"/><path d="M9 15c1 1 5 1 6 0"/></svg>
+        </div>
+        <h2>Your Skin Journey Starts Here</h2>
+        <p>Visit Skinheal Clinic in Najafgarh, Delhi, or call to learn more about how we can help you explore personalized skincare options.</p>
+        <div class="visit-actions">
+          <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+          <a href="tel:+918766220757" class="btn btn-outline">Call: 087662 20757</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="faq-header reveal">
+          <span class="section-label">FAQ</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">Answers to common questions. For anything unconfirmed, please contact the clinic directly.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1" id="faq-q-1">
+              Where is Skinheal Clinic located?
+              <span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-1" role="region" aria-labelledby="faq-q-1">
+              <p>Skinheal Clinic is located at No.3, Dhansa Stand, Near HP Petrol Pump/Gate, Metro Station, Najafgarh, Delhi 110043. Use the map in the Location section above or tap “Get Directions” for navigation.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2" id="faq-q-2">
+              How can I contact the clinic?
+              <span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-2" role="region" aria-labelledby="faq-q-2">
+              <p>You can call the clinic at <a href="tel:+918766220757">087662 20757</a>. The website does not currently list a verified WhatsApp number.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3" id="faq-q-3">
+              How can I request an appointment?
+              <span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-3" role="region" aria-labelledby="faq-q-3">
+              <p>You can use the appointment form on this page or call the clinic directly. Online requests are not automatically confirmed — please call to confirm your appointment.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4" id="faq-q-4">
+              Which skincare services are available?
+              <span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-4" role="region" aria-labelledby="faq-q-4">
+              <p>Please call the clinic to confirm currently available services. The service cards on this website are shown for information only and their availability has not been independently confirmed.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5" id="faq-q-5">
+              What are the clinic hours?
+              <span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-5" role="region" aria-labelledby="faq-q-5">
+              <p>Listed hours indicate the clinic opens at 11 am on Friday. Please call the clinic directly to confirm current opening hours and availability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="color:#fff;">
+            <span class="logo-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C9 7 5 9 5 14a7 7 0 0 0 14 0c0-5-4-7-7-12z"/></svg>
+            </span>
+            Skinheal Clinic
+          </div>
+          <p>A local skincare clinic in Najafgarh, Delhi, offering a personalized and welcoming approach to skin care.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <ul>
+            <li>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=No.3%2C%20Dhansa%20Stand%2C%20Near%20HP%20Petrol%20Pump%2C%20Najafgarh%2C%20Delhi%20110043"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Get Directions</a>
+            </li>
+            <li><a href="tel:+918766220757">Call the Clinic</a></li>
+            <li><a href="#location">Location &amp; Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h4>Contact</h4>
+          <p><a href="tel:+918766220757">087662 20757</a></p>
+          <p>No.3, Dhansa Stand, Near HP Petrol Pump/Gate, Metro Station, Najafgarh, Delhi 110043</p>
+          <p>Plus Code: JX6H+CW Najafgarh, Delhi</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> Skinheal Clinic. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="#" id="privacyLink">Privacy Policy</a>
+          <a href="#" id="termsLink">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+
+      /* Mobile nav */
+      var mobileToggle = document.getElementById('mobileToggle');
+      var mobileNav = document.getElementById('mobileNav');
+      var menuIcon = document.getElementById('menuIcon');
+
+      function setMenuState(open) {
+        if (!mobileNav || !mobileToggle) return;
+        mobileNav.classList.toggle('open', open);
+        mobileToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        mobileToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        if (menuIcon) {
+          menuIcon.innerHTML = open
+            ? '<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>'
+            : '<line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>';
+        }
+      }
+      if (mobileToggle) {
+        mobileToggle.addEventListener('click', function () {
+          setMenuState(!mobileNav.classList.contains('open'));
+        });
+      }
+      if (mobileNav) {
+        mobileNav.querySelectorAll('a').forEach(function (l) {
+          l.addEventListener('click', function () { setMenuState(false); });
+        });
+      }
+      var resizeTimer;
+      window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () {
+          if (window.innerWidth > 860) setMenuState(false);
+        }, 150);
+      });
+
+      /* Header shadow */
+      var header = document.getElementById('header');
+      function onScroll() {
+        if (!header) return;
+        header.classList.toggle('scrolled', window.scrollY > 10);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      /* Reveal */
+      var revealEls = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        revealEls.forEach(function (el) { obs.observe(el); });
+      } else {
+        revealEls.forEach(function (el) { el.classList.add('visible'); });
+      }
+
+      /* FAQ */
+      var faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(function (item) {
+        var btn = item.querySelector('.faq-question');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+          var wasActive = item.classList.contains('active');
+          faqItems.forEach(function (o) {
+            o.classList.remove('active');
+            var q = o.querySelector('.faq-question');
+            if (q) q.setAttribute('aria-expanded', 'false');
+          });
+          if (!wasActive) {
+            item.classList.add('active');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+
+      /* Form */
+      var form = document.getElementById('appointmentForm');
+      var successBox = document.getElementById('formSuccess');
+      var formLoadTime = Date.now();
+
+      var dateInput = document.getElementById('prefDate');
+      if (dateInput) {
+        var t = new Date();
+        var minDate = t.getFullYear() + '-' +
+          String(t.getMonth() + 1).padStart(2, '0') + '-' +
+          String(t.getDate()).padStart(2, '0');
+        dateInput.setAttribute('min', minDate);
+      }
+
+      function showError(id, msg) {
+        var f = document.getElementById(id);
+        var e = document.getElementById('err-' + id);
+        if (f) f.classList.add('invalid');
+        if (e) { e.textContent = msg; e.classList.add('visible'); }
+      }
+      function clearError(id) {
+        var f = document.getElementById(id);
+        var e = document.getElementById('err-' + id);
+        if (f) f.classList.remove('invalid');
+        if (e) { e.textContent = ''; e.classList.remove('visible'); }
+      }
+      ['fullName', 'phone'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) el.addEventListener('input', function () { clearError(id); });
+      });
+
+      function validPhone(v) {
+        var d = v.replace(/\D/g, '');
+        return d.length >= 7 && d.length <= 15;
+      }
+
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          ['fullName', 'phone', 'prefDate', 'prefTime'].forEach(clearError);
+
+          var hp = document.getElementById('website');
+          if (hp && hp.value !== '') return;
+          if (Date.now() - formLoadTime < 2500) return;
+
+          var fullName = document.getElementById('fullName');
+          var phone = document.getElementById('phone');
+          var prefDate = document.getElementById('prefDate');
+          var bad = false;
+
+          if (!fullName.value.trim() || fullName.value.trim().length < 2) {
+            showError('fullName', 'Please enter your full name.'); bad = true;
+          }
+          if (!phone.value.trim()) {
+            showError('phone', 'Please enter your phone number.'); bad = true;
+          } else if (!validPhone(phone.value.trim())) {
+            showError('phone', 'Please enter a valid phone number (7–15 digits).'); bad = true;
+          }
+          if (prefDate && prefDate.value) {
+            var sel = new Date(prefDate.value + 'T00:00:00');
+            var now = new Date(); now.setHours(0, 0, 0, 0);
+            if (sel < now) { showError('prefDate', 'Please choose a date from today onward.'); bad = true; }
+          }
+          if (bad) {
+            var firstBad = form.querySelector('.form-control.invalid');
+            if (firstBad) firstBad.focus();
+            return;
+          }
+
+          form.style.display = 'none';
+          if (successBox) {
+            successBox.classList.add('visible');
+            successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        });
+      }
+
+      /* Share */
+      var shareBtn = document.getElementById('shareLocationBtn');
+      function showToast(msg) {
+        var ex = document.getElementById('toastMsg');
+        if (ex) ex.remove();
+        var el = document.createElement('div');
+        el.id = 'toastMsg';
+        el.textContent = msg;
+        el.style.cssText = 'position:fixed;bottom:28px;left:50%;transform:translateX(-50%);' +
+          'background:#2C2C2C;color:#fff;padding:12px 24px;border-radius:50px;' +
+          'font-size:.88rem;font-family:Inter,sans-serif;z-index:9999;' +
+          'box-shadow:0 6px 24px rgba(0,0,0,.25);opacity:0;' +
+          'transition:opacity .3s ease;max-width:90vw;text-align:center';
+        document.body.appendChild(el);
+        requestAnimationFrame(function () { el.style.opacity = '1'; });
+        setTimeout(function () {
+          el.style.opacity = '0';
+          setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 350);
+        }, 2800);
+      }
+      function copyFallback(text) {
+        var ta = document.createElement('textarea');
+        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); showToast('Location copied to clipboard!'); }
+        catch (e) { showToast('Please call the clinic for location details.'); }
+        document.body.removeChild(ta);
+      }
+      function copyText(text) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(function () {
+            showToast('Location copied to clipboard!');
+          }).catch(function () { copyFallback(text); });
+        } else { copyFallback(text); }
+      }
+      if (shareBtn) {
+        shareBtn.addEventListener('click', function () {
+          var data = {
+            title: 'Skinheal Clinic — Skin Care Clinic',
+            text: 'Skinheal Clinic — No.3, Dhansa Stand, Near HP Petrol Pump/Gate, Metro Station, Najafgarh, Delhi 110043. Phone: 087662 20757',
+            url: 'https://www.google.com/maps/search/?api=1&query=No.3%2C%20Dhansa%20Stand%2C%20Near%20HP%20Petrol%20Pump%2C%20Najafgarh%2C%20Delhi%20110043'
+          };
+          if (navigator.share) {
+            navigator.share(data).catch(function () { copyText(data.text); });
+          } else { copyText(data.text); }
+        });
+      }
+
+      /* Footer year */
+      var y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+
+      /* Legal placeholders */
+      function legal(label) {
+        return function (e) {
+          e.preventDefault();
+          showToast(label + ' page is not yet published. Please call the clinic for details.');
+        };
+      }
+      var pl = document.getElementById('privacyLink');
+      var tl = document.getElementById('termsLink');
+      if (pl) pl.addEventListener('click', legal('Privacy Policy'));
+      if (tl) tl.addEventListener('click', legal('Terms and Conditions'));
+
+    })();
+  </script>
+
+</body>
+</html>
